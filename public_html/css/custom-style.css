@@ -1,0 +1,12 @@
+div{
+    border-style: solid;
+    border-width: 3px;
+    border-color: darkmagenta;
+    padding: 64px;
+}
+.container{
+    border-color: red;
+}
+.row{
+    border-color: red;
+}
