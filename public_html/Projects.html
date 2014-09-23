@@ -6,20 +6,40 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Projects</title>
+        <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="type/css" rel="stylesheet" href="css/bootstrap-theme.css">
+        <link type="type/css" rel="stylesheet" href="css/bootstrap.css">
+        <link type="type/css" rel="stylesheet" href="css/custom-style.css">
     </head>
     <body>
-        <h3>Portfolio1</h3>
-        <p>In this project we were taught how to code HTML and CSS.<br />
-           In Portfolio 1 we created an About Me page, a Technology Page, and<br /><!--Paragraph-->
-           the Projects Page. In this Project I learned the basics of coding a website with HTML and CSS.</p>
-        <h3>Portfolio2</h3>
-        <p>In this project we used HTML,CSS, and Bootstrap. In this project we did<br />
-           the same in adding an index page, project page, and technology page. In this<br />
-           project we used a new thing called bootstrap. Bootstrap helps with the designing<br />
-           of the website.
-        </p>
+        <div class="container">
+            <p>container</p>
+            <div class="row">
+                <p>row</p>
+                <div class="col-xs-9">
+                    <p>col-xs-9</p>
+                    <div class="row">
+                        <p>In the Porfolio 1 project we were taught how to code HTML and CSS.<br />
+                           In Portfolio 1 we created an About Me page, a Technology Page, and<br /><!--Paragraph-->
+                           the Projects Page. In this Project I learned the basics of coding a website with HTML and CSS.</p>
+                    </div>
+                    <div class="row">
+                        <p>In this project we used HTML,CSS, and Bootstrap. In this project we did<br />
+                           the same in adding an index page, project page, and technology page. In this<br />
+                           project we used a new thing called bootstrap. Bootstrap helps with the designing<br />
+                           of the website.</p>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <nav class="list-group">
+                        <a class="list-group-item" href="HomePage.html">Home Page</a>
+                        <a class="list-group-item" href="Projects.html">Projects</a>
+                        <a class="list-group-item" href="Technology.html">Technology</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
