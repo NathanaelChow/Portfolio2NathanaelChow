@@ -1,8 +1,8 @@
 div{
     border-style: solid;
     border-width: 3px;
-    border-color: darkmagenta;
-    padding: 64px;
+    border-color: red;
+    padding: 32px;
 }
 body{
     background-color: white;
@@ -22,4 +22,18 @@ body{
 img{
     width: 360px;
     height: auto;
+}
+div container{
+    padding: 48px;
+}
+.nav a{
+    font-size: 16px;
+    color: red;
+    padding-top: 16px;
+}
+div col-xs-9{
+    padding-right: 10px;
+}
+.div jumbotron{
+    color: red;
 }
