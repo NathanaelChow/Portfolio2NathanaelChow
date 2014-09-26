@@ -18,49 +18,87 @@ and open the template in the editor.
          <h1>Technology</h1>
          <nav> 
         <ul class="nav nav-tabs" role="tablist">
-         <li class="active"><a href="#">Home</a></li>
+         <li class="active"><a href="#">Links</a></li>
         <li><a href="Projects.html">Projects</a></li>
          <li><a href="Homepage.html">Home Page</a></li>
         </ul>
-         </nav>  
+         </nav> 
+         <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    Technology Links
+    <span class="caret"></span>
+        </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a href="http://en.wikipedia.org/wiki/HTML5">HTML</a></li>
+    <li role="presentation"><a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></li>
+    <li role="presentation"><a href="http://getbootstrap.com/">Bootstrap</a></li>
+  </ul>
+</div>
     </div>
           <div class="container">
               <h1>Technology</h1>
             <div class="row">
                 <p>row</p>
-                <div class="col-xs-9">
-                    <p>col-xs-9</p>
-                    
-                      <div class="row">
-                        <p> HTML is a standard markup language used to create websites. It is<br />
+                
+                    <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          HTML
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+                           HTML is a standard markup language used to create websites. It is<br />
                            written using tags and angle brackets. With HTML and CSS You can <br />
                            make a website with images,titles, and backgrounds. HTML is the <br />
                            main thing you need to build and create a website. <br />
                            Besides pictures and text on you're website, you can also create<br />
-                           links and put backrounds.  <a href="http://en.wikipedia.org/wiki/HTML5">HTML</a>
-                        </p>
-                      </div>
-                      <div class="row">
-                        <p>CSS stands for Cascading Style Sheet. CSS helps with your'e program <br>
+                           links and put backgrounds.<a href="http://en.wikipedia.org/wiki/HTML5">HTML</a>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          CSS
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+                           CSS stands for Cascading Style Sheet. CSS helps with your'e program <br>
                            bye giving you the access ability to the text,background, and layouts.<br>
                            Most websites use CSS to present their website. You can use CSS edit<br>
                            links with, underlines or bold etc. <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a>
-                        </p>
-                      </div>
-                     <div class="row">
-                        <p> Bootstrap is a collection of tools used to help design a website<br /> 
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          Bootstrap
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+                            Bootstrap is a collection of tools used to help design a website<br /> 
                             using templates. You can use CSS to edit these different tools from bootstrap.<br />
-                            You can add things like buttons, drop downs, and rows and columns.</p>
-                      </div>
-                    
+                            You can add things like buttons, drop downs, and rows and columns.<a href="http://getbootstrap.com/">Bootstrap</a>
+      </div>
+    </div>
+  </div>
+</div>
                         
                    </div>
-               
-                <div class="col-xs-3">
-                    
+                 
                 </div>
-            </div>
-            </div>
+         
     </body>
            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
        <script src="js/bootstrap.min.js"></script>
